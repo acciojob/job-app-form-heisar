@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+
+body {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	min-height: 100vh;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	width: 40vw;
+}
+
+button{
+	width: 40vw;
+}
