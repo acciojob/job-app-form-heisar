@@ -5,7 +5,54 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
+	<form method="post">
+		<div>
+			<label for ="name">Name* </label>
+			<input id="name" type="text" required>
+		</div>
 
+		<div>
+			<label for = "email">Email*</label>
+			<input id= "email" type = "email" required>
+		</div>
+
+		<div>
+			<label>Gender*</label>
+			<div>
+				<label for='male'>Male</label>
+				<input id = 'male' name = 'gender' type='radio'>
+			</div>
+			<div>
+				<label for='female'>Female</label>
+				<input id = 'female' name = 'gender' type='radio'>
+			</div>
+		</div>
+
+		<div>
+			<label for='laptop'>Laptop Brands</label>
+			<select id='laptop'>
+				<option value='apple'>Apple</option>
+				<option value='asus'>Asus</option>
+				<option value='hp'>HP</option>
+			</select>
+		</div>
+
+		<div>
+			<label for='age'>Age*</label>
+			<input id ='age' type='number' required>
+		</div>
+
+		<div>
+			<label for'dob'>DOB*</label>
+			<input id ='dob' type='date' required>
+		</div>
+
+		<div>
+			<label for='password'>Password</label>
+			<input id ='password' type='password' required>
+		</div>
+		<button type='submit'>submit button</button>
+	</form>
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
